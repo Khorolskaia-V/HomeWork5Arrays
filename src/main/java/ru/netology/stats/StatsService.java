@@ -63,7 +63,7 @@ public class StatsService {
 
         int maxAver = 0;
         long average = averageSalesAmount(sales);
-        for (int i = 0;  sales.length; i++) {
+        for (int i = 0; i < sales.length; i++) {
             if (sales[i] > average) {
                 maxAver+=1;
 
